@@ -1,0 +1,68 @@
+
+- Méthode (CSS) : Attention de ne pas surqualifier vos sélecteurs. 
+p. ex `asset/css/carte_grille.css:2:1` voir ``div.carte_grille`` ok  erreur de spécifité avec .carte_contenu > div  carte_contenu.css.14
+p. ex `asset/css/entete_page.css:28:26` voir ``a.logo`` ok
+
+- Méthode (CSS) : Cette valeur de positionnement est délicate. Prudence est de mise. 
+p. ex `asset/css/pied_page.css:68:3` voir ``[id="pied_page"] p`` & `position: absolute` à revoir
+
+- Méthode (CSS) : Les dégagements ne vont pas sur le contenu mais sur les conteneurs. 
+p. ex `asset/css/carte_contenu.css:9:3` voir ``.carte_contenu h2`` ok
+p. ex `asset/css/carte_texte_sur_image.css:17:3` voir ``.carte_texte_sur_image > h3`` /à revoir/
+p. ex `asset/css/pied_page.css:70:3` voir ``[id="pied_page"] p`` / à revoir/
+
+- Méthode (CSS) : Les sélecteurs d'une composante doivent toujours commencer par son nom de fichier. 
+p. ex `asset/css/carte_contenu.css:27:3` voir ``.carte_image_texte > img`` & `carte_contenu` ok
+p. ex `asset/css/carte_grille.css:2:1` voir ``div.carte_grille`` & `carte_grille`  ok 
+p. ex `asset/css/entete_page.css:8:1` voir ``.dropbtn`` & `entete_page`  ok
+
+- Méthode (CSS) : Spécificité trop élevée pour le sélecteur. 
+p. ex `asset/css/entete_page.css:49:1` voir ``[id="entete_page"] nav .dropdown:hover > .dropdown-content``  /à revoir/
+p. ex `asset/css/pied_page.css:82:3` voir ``[id="pied_page"] .footer-content .siege-social`` /à revoir/
+
+- Méthode (CSS) : Syntaxe invalide. 
+p. ex `asset/css/entete_page.css:129:19` voir ``text-justify`` & `center` ok 
+
+- Méthode (CSS) : Une composante ne devrait influencer l'extérieur. Son conteneur parent s'occupe du rythme. 
+p. ex `asset/css/carte_contenu.css:2:3` voir ``.carte_contenu`` & `margin: 72px auto 0 auto`  ok ajouté sur le main *+*
+
+- Méthode (HTML) : schéma de titre inadéquat.
+p. ex. les infos d'adresse ne devraient pas tous être des titres. ok
+
+- Communication graphique : alignements manquants, inadéquat ou erratiques.
+p. ex. voir alignement-erratique.png
+
+- Communication graphique : dimensions trop étroites pour le contenu.
+p. ex. voir dimensions-etroites.png
+
+- Communication graphique : rythme inadéquat, trop lâche, serré ou erratique.
+p. ex. voir rythme-serre.png
+
+
+### Expérience utilisateur 2.7 / 3
+
+- Respect des règles et principes de l'ergonomie
+- Respect de l'accessibilité
+- Adaptation complète et efficace
+
+### Communication graphique  3.5 / 4
+
+- Cohérence et uniformité du langage graphique
+- Communication graphique fonctionnelle & esthétique
+
+## Méthode de travail 2.7 / 3
+
+- Le HTML est sémantique, valide et accessible
+- Le code CSS est bien organisé et les intentions sont claires
+- Le langage CSS est généralement bien utilisé
+
+### Appréciation générale 2.8 / 3
+
+- Argumentation des choix les plus importants
+- Présence et qualité des éléments requis
+- Propreté et rigueur générales
+- Respect des consignes
+
+### Ajustement aux commentaires de l'enseignant  / 2
+
+11.7

@@ -1,0 +1,27 @@
+** Le choix de police est venue pour donner un apreçu élégant du site :
+
+** Choix des couleurs :
+***La couleur principale : #386641 utiliser dans les titres de la navigation et les bouttons.
+***La couleur secondaire : #A7C957 utilisé pour le hover autant que version clair de la première
+***La couleur des titres : #333333 pour les titres :
+***La couleur du texte sur un fond foncé: #ffffff appliqué à l'aide d'une class "textSurFond";
+
+** Après analyse du code j'ai identifié plusieurs composants qui ont un empreinte graphique réutilisable:
+***la banniere d'acceuil qui est en plein page, il est regroupé dans un css "banniere_plein_page"
+***Les bouttons ont aussi un css appliqué dans toutes la page : "buton.css"
+***les sections du site adopte le même style indépandement de leur contenue : "carte_contenu.css"
+***la grille des restaurants inclus des cartes identiques pour lesquel on crée un fichier "carte_grille"
+***pour la partie promotion, j'ai préféré créé une carte spécial pour les images avec du texte à l'interieur dans un fichier "carte_text_sur_image_text.css"
+***quand une section à une image à gauche et un texte à droite, j'ai créé la "carte_image_text.css" utilisable dans ce cas de figure dans tout le site.
+*** même la partie boutton recherche à droit à son css car on en aura besoin à plusieurs reprise dans le future : "carte_recherche.css"
+***pour le reste des éléments on a séparé le css selon la zone d'application.
+**** L'utilisation des cartes nous permettra d'adopter un style cohérent, facile à implémenter et respectant la charte graphique du site.
+
+*** Mon choix de réorganiser tout le code est le changement de l'utilisation de selecteur généraux à des selecteurs plus précis comme les classes ou les ID est motivé par le fait d'avoir un code clair, facile à comprendre et réutilisable dans les différentes pages futures du site.
+
+
+**Pour la grille, j'ai changé le display en grid car il s'adaptera automatiquement à tout type d'affichage.
+
+**Malgré une analyse Wave, j'ai trouvé que le texte blanc sur les images ne passe pas, de ce fait, j'ai décidé d'appliquer un background léger flou pour faire resortir le texte sans caché les photos.
+
+** Note que plusieurs paramêtre qui était partager par plusieurs partie qui appartiennent à des composants et qui faisait partie du "main" on était transférer dans leurs composants approprié pour avoir un comportement cohérent des composants et une compréhension plus facilité du code.

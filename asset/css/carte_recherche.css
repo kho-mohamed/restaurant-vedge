@@ -1,0 +1,20 @@
+.carte_recherche {
+  margin-top: 72px;
+  flex-flow: column;
+  text-align: center;
+}
+
+.carte_recherche > * + * {
+  margin-top: 24px;
+}
+.carte_recherche h3 {
+  font-size: 2.369rem;
+}
+.carte_recherche input {
+  border: 1px solid #386641;
+  border-radius: 5px;
+  padding: 10px;
+}
+.carte_recherche .Soumettre {
+  background-color: #a7c957;
+}

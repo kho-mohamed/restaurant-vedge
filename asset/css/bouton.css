@@ -1,0 +1,16 @@
+.bouton {
+  padding: 0.5em 0.65em;
+  background-color: #a7c957;
+  border-radius: 0.2em;
+  transition-delay: 0.05s;
+  max-width: max-content;
+  max-height: fit-content;
+  text-align: center;
+  margin-top: 48px;
+  font-size: 1em;
+}
+
+.bouton:hover {
+  background-color: #386641;
+  color: #fff;
+}

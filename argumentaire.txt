@@ -1,0 +1,40 @@
+Vedge
+
+    Un argumentaire écrit des choix les plus importants devra être également fourni. Par exemple, la navigation, la priorisation des éléments, la pertinence de votre ajout, etc. Un fichier argumentaire.txt doit être livré avec le prototype.
+	
+Pour ce travail, j’ai commencé par jeter un coup d’œil aux sites web des restaurants végétaliens que je connaissais, donc j’ai jeté mon dévolu sur le « Lov », « La Panthère Verte », « Umami » et « Aux Vivres ». Un exercice très utile afin de déterminer une trame narrative cohérente pour ce genre d’organisation. Par la suite, mes recherches ont pris de l’expansion dans les restaurants de Montréal que j’aime bien afin de prendre conscience des éléments récurrents sur les sites du milieu de la restauration; « Le Chien Fumant », « Montréal Plaza », et bien d’autres. Aussi, j’ai travaillé pendant plus de 15 ans dans le milieu de la restauration en tant que serveur/barman, alors j’ai une certaine connaissance du milieu et des interrogations qui reviennent souvent. 
+
+    Persona :
+        Tranche d’âge : À partir du CEGEP jusqu’à la mi-cinquantaine.
+    Occupation : Actif peu importe le sport, mais j’aurais tendance à pencher un peu plus vers les sports de plein-air et individuel; escalade, canoë, course à pied, ski de fond. Une bonne quantité d’évènements culturels et mondains; exposition, cinéma, livre, théâtre.
+    Niveau : Cegep/Université
+    Croyances et valeurs : Consommation responsable, concerné par ses pratiques environnementales, adore les animaux.
+    Problématiques et défis personnels : Découvrir de nouveaux plats à manger.
+    Sa façon d’acheter, de consommer : S’informe le plus possible avant de s’asseoir dans un restaurant.
+    Source d’informations : Blog, médias sociaux, journaux, l’internet.
+
+Véganisme selon Wikipédia :
+« Ce mode de vie, extension du végétalisme qui est lui-même une forme plus restrictive du végétarisme, peut être adopté pour les mêmes motivations, notamment éthiques, environnementales, sanitaires, et plus rarement religieuses. Le plus souvent, il a pour motivation principale des convictions éthiques relatives à la manière dont les humains traitent et devraient traiter les animaux. Ces convictions peuvent prendre la forme d'une idéologie proposant une redéfinition normative des relations entre humains et animaux, notamment l'antispécisme, une philosophie selon laquelle l'espèce d'un individu n'est pas un critère pertinent pour définir la considération morale à accorder à cet individu. »
+
+Navigation : 
+	Mes choix les plus importants concernant la navigation sont d’avoir laissé tomber  « Trouver un restaurant », et d’y ajouter « philosophie » à la place.  J’ai une partie dans ma page d’accueil qui se consacre à l’exercice de trouver un restaurant avec le code postal dans la section « Restaurant en vedette ». De plus, la scénarisation proposée contenait aussi « Restaurant » dans le menu principal avec un sous-menu qui détaille toutes les succursales de l’organisation. Alors, je l’ai enlevé et j’en ai profité pour faire passer « philosophie » du menu secondaire au menu principal. Concernant, les restaurants végétaliens, j’assume qu’en général la clientèle est très informée, et éduquée. Devenir végétalien nécessite une démarche, une prise de conscience et d’information. Alors, j’estime qu’il est important de saisir l’occasion de mettre à l’avant-plan la philosophie, la démarche et la culture d’entreprise. 
+
+    J’ai mis les éléments de mon menu dans cet ordre : Menu, Philosophie, Restaurant, Logo(accueil), Réservation, Commande en ligne. Souvent ma priorité quand je visite le site d’un restaurant est de trouver le menu, philosophie est suffisamment expliqué, ensuite restaurant, suivi d’une coupure au centre par le logo du restaurant (lien accueil). En mettant le logo au centre, je tente d’affirmer une séparation entre le côté dionysiaque (gauche) et le côté plus mercantile d’un restaurant (appollinien?).
+
+La priorisation des éléments :
+
+    J’ai décidé de mettre « Botanique et décadente » en bannière. De cette façon, l’accent est mis sur les caractéristiques positives de la matière première; la nourriture. Cette section est aussi accompagnée d’un bouton « réservation ».
+
+    Ensuite, je poursuis avec un incitatif promotionnel qui pourrait être le lubrifiant du passage entre l’état d’hésitation et celui de l’abandon aux plaisirs de la consommation épicurienne.
+
+    Mon troisième élément, « Notre Mission », est celui que j’ai ajouté à la scénarisation étant donné l’importance que j’accorde à la culture d’entreprise pour établir un lien de confiance entre le consommateur végétalien et une organisation qui gravite dans cette sphère.
+
+    Par la suite, il s’agit de la section « Restaurant en vedette ». La scénarisation suggérait de mettre toutes les franchises de l’organisation. Je ne crois pas qu’on puisse parler de restaurants vedettes s’ils sont tous représentés, alors j’ai décidé d’en mettre seulement trois. Idéalement, l’image qui accompagnerait les restaurants serait plutôt des badges de reconnaissance comme « Choix du consommateurs 2021 », une reconnaissance comme celle là justifie d’avoir une section « Restaurant en vedette » ou gagnant d’un concours à l’intérieur de l’organisation, ou amasser des fonds pour une cause quelconque. J’en ai aussi profité pour mettre la barre de recherche pour « Trouver un restaurant »
+        
+    Comme la section « Voulez-vous établir votre restaurant » ne s’adresse pas au consommateur régulier, elle est en dernière position dans la page d’accueil. Quelqu’un qui cherche une opportunité d’affaire va se donner la peine d’explorer le site web de fond en comble. 
+
+Le rythme vertical :
+    Mes choix sont des marges-top de 100px entre les sections, 50px entre un élément et un bouton ainsi que pour marquer la présence d’une sous-section. Cette situation n’arrive que dans la section « Restaurant en vedette » où je place « Trouver un restaurant » sous le contenu principal. Le contenu des sections commence est précédé par une marge de 30px. Pour finir, il y a une marge de 20px entre le restant des éléments présents dans les sections. 
+    Comme je ne connais pas de fond en comble la théorie sur le sujet, l’impression que j’ai en créant ce genre de rythme, c’est que j’isole les sections ce qui accentue la concentration sur une seule thématique, alors que dans les sections les éléments sont plus resserrés afin de trouver plus rapidement les informations.
+
+

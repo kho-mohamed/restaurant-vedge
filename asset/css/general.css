@@ -1,0 +1,47 @@
+/* import des éléments necessaires au code */
+@import url(/asset/css/main.css);
+@import url(/asset/css/entete_page.css);
+@import url(/asset/css/bouton.css);
+@import url(/asset/css/carte_contenu.css);
+@import url(/asset/css/banniere_plein_page.css);
+@import url(/asset/css/carte_image_texte.css);
+@import url(/asset/css/carte_grille.css);
+@import url(/asset/css/carte_recherche.css);
+@import url(/asset/css/carte_texte_sur_image.css);
+@import url(/asset/css/pied_page.css);
+@import url(/asset/css/arriere_plan.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/*Style de base*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-kerning: normal;
+  font-size: 16px;
+}
+
+/*Interligne et couleur de police------------------------*/
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.15;
+  color: #333333;
+}
+p {
+  line-height: 1.35;
+}

@@ -1,0 +1,21 @@
+/*Rythme vertical pour les éléments de contenu*/
+
+main * + p,
+main * + img,
+main * + a,
+main * + h1,
+main * + h2,
+main * + h3,
+main * + h4 {
+  margin-top: 20px;
+}
+
+/*Structure pour les éléments paragraphes et les liens----*/
+
+main a,
+main p {
+  display: block;
+}
+main > * + * {
+  margin-top: 72px;
+}

@@ -1,0 +1,8 @@
+/*On ajoute div.carte_grille pour augmenter la spécifité du selecteur contre carte_contenu>div*/
+.carte_grille {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}

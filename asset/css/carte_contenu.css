@@ -1,0 +1,28 @@
+.carte_contenu {
+  max-width: 100rem;
+  padding: 0 20px;
+  font-size: 1.333rem;
+}
+
+.carte_contenu header {
+  padding-bottom: 8px;
+  text-align: left;
+  border-bottom: 4px double rgba(0, 0, 0, 0.37);
+}
+
+.carte_contenu > * {
+  margin-top: 24px;
+}
+.carte_contenu > * {
+  display: flex;
+  gap: 20px;
+}
+.carte_contenu p {
+  max-width: 50ch;
+}
+
+@media screen and (max-width: 730px) {
+  .carte_contenu > div {
+    flex-flow: column;
+  }
+}

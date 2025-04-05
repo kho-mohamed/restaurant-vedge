@@ -1,0 +1,41 @@
+.banniere_plein_page {
+  margin-top: 15px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px; /* le padding pour assurer une bonne couverture de l'image du backgrounda */
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-size: cover;
+}
+.banniere_plein_page_backgound {
+  background-image: url("../img/banniere_philosophie.jpg");
+  background-size: cover;
+}
+.banniere_plein_page > * {
+  flex-grow: 1;
+}
+
+.banniere_plein_page h1 {
+  font-size: 3.157rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.banniere_plein_page p {
+  font-size: 1.333em;
+  max-width: 50ch;
+  color: #ffffff;
+}
+
+.banniere_plein_page > div {
+  max-width: calc(60rem - 20px);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+.banniere_plein_page > div > a {
+  display: block;
+}

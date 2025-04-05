@@ -1,0 +1,16 @@
+.carte_image_texte > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carte_image_texte > img {
+  width: 50vw;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 730px) {
+  .carte_image_texte > img {
+    width: auto;
+  }
+}

@@ -1,0 +1,147 @@
+[id="entete_page"] > nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 20px;
+}
+[id="entete_page"] > nav > *,
+[id="entete_page"] .dropbtn {
+  display: inline-block;
+}
+
+[id="entete_page"] .medaillon {
+  width: 120px;
+  height: 120px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: text-bottom;
+}
+
+[id="entete_page"] > nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: #386641;
+  font-weight: bold;
+}
+[id="entete_page"] > nav .logo {
+  padding: 0px;
+  min-height: fit-content;
+  min-width: fit-content;
+}
+
+/* Activation de l'effet de hover sur tout les liens sauf le logo*/
+[id="entete_page"] > nav a:not(.logo):hover {
+  color: #a7c957;
+}
+
+[id="entete_page"] > nav > a:hover,
+[id="entete_page"] .dropbtn:hover {
+  transform: scale(1.1);
+}
+
+/*Style du menu déroulant-----------*/
+[id="entete_page"] nav .dropdown {
+  position: relative; /* Assure un bon positionnement */
+}
+
+[id="entete_page"] .dropdown:hover > .dropdown-content {
+  display: block;
+}
+
+[id="entete_page"] nav .dropdown-content {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 100%;
+  min-width: max-content;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  border-radius: 5px;
+}
+
+[id="entete_page"] nav .dropdown-content a {
+  padding: 10px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+
+/*Hover dans le menu déroulant-----*/
+
+[id="entete_page"] nav .dropdown-content > a:hover {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/*Adaptation du menu au fenêtre de moins de 100px*/
+
+/* Cache l'input checkbox */
+[id="entete_page"] .declencheur_menu {
+  display: none;
+}
+
+[id="entete_page"] [id="boutton_menu"] {
+  display: none;
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 1003px) {
+  [id="entete_page"] > nav {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  /*Le header passe en mode flex*/
+  [id="entete_page"] {
+    display: flex;
+  }
+  /*faire apparaîttre l'icone menu de trois barre*/
+  [id="entete_page"] [id="boutton_menu"] {
+    display: block;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: auto;
+  }
+  /*le lien de la navigation disparaisse aussi*/
+  [id="entete_page"] .menu_dynamique {
+    display: none;
+  }
+  /* Adapatation du logo pour qu'il occupe l'essentiel de la navigation */
+  [id="entete_page"] nav {
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+  }
+  [id="entete_page"] nav .logo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  /* Activation du menu après le clic sur l'icone des trois barres*/
+  [id="entete_page"] .declencheur_menu:checked ~ nav .menu_dynamique {
+    display: block;
+  }
+  [id="entete_page"] .declencheur_menu:checked ~ nav {
+    display: flex;
+    text-align: center;
+  }
+  [id="entete_page"] .declencheur_menu:checked ~ nav .logo {
+    display: none;
+  }
+  [id="entete_page"] nav .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  [id="entete_page"] nav .dropdown-content {
+    position: static; /* Supprime le positionnement absolu en mobile */
+    text-align: center;
+    box-shadow: none;
+  }
+}
