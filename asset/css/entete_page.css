@@ -88,6 +88,11 @@
   height: 30px;
 }
 
+/*changement de couleur du lien actif*/
+[id="entete_page"] .lien_actif {
+  color: #a7c957;
+}
+
 @media screen and (max-width: 1003px) {
   [id="entete_page"] > nav {
     gap: 0;
