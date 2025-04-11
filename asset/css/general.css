@@ -1,15 +1,15 @@
 /* import des éléments necessaires au code */
-@import url(/asset/css/main.css);
-@import url(/asset/css/entete_page.css);
-@import url(/asset/css/bouton.css);
-@import url(/asset/css/carte_contenu.css);
-@import url(/asset/css/banniere_plein_page.css);
-@import url(/asset/css/carte_image_texte.css);
-@import url(/asset/css/carte_grille.css);
-@import url(/asset/css/carte_recherche.css);
-@import url(/asset/css/carte_texte_sur_image.css);
-@import url(/asset/css/pied_page.css);
-@import url(/asset/css/arriere_plan.css);
+@import url(main.css);
+@import url(entete_page.css);
+@import url(bouton.css);
+@import url(carte_contenu.css);
+@import url(banniere_plein_page.css);
+@import url(carte_image_texte.css);
+@import url(carte_grille.css);
+@import url(carte_recherche.css);
+@import url(carte_texte_sur_image.css);
+@import url(pied_page.css);
+@import url(arriere_plan.css);
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /*Style de base*/
